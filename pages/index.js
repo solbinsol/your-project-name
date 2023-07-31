@@ -47,6 +47,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Pwa Test</h1>
         <h2>ABCD EFGH</h2>
+        <h1>v5</h1>
       </main>
 
       <footer className={styles.footer}>
