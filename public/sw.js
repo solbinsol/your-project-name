@@ -26,3 +26,15 @@ self.addEventListener('install', (event) => {
       })
     );
   });
+
+
+  self.addEventListener('push', event => {
+    const options = {
+      body: 'PWA TEST', // 푸시 알림에 표시될 메시지
+      icon: '/path/to/icon.png', // 알림에 표시될 아이콘 이미지
+    };
+  
+    event.waitUntil(
+      self.registration.showNotification('PWA Test Notification', options)
+    );
+  });
