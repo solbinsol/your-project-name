@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#317EFB"/>
-        <title>AVATOON</title>
+        <title>PWATEST!</title>
       </Head>
 
       <main className={styles.main}>
