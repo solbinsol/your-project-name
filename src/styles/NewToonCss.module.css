@@ -1,0 +1,119 @@
+@media screen and (max-width:721px) and (min-width:362px) {
+  .NewToonBOx{
+    width: 720px !important;
+  }
+  .NewToonPage
+  {
+    width: 80% !important;
+    position: relative;
+    right: 25%;
+    float: left !important;
+  }
+  .NewToonInfo{
+    height: 310px !important;
+
+  }
+  .NewToonItem img{
+    height: 300px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+
+
+}
+@media screen and (max-width: 419px) and (min-width: 363px) {
+
+  .MNewToon {
+    float: left !important;
+    width: 100% !important;
+    position: relative;
+    height: 200px;
+  }
+  .NewToonPage {
+    width: 100% !important;
+    margin: 0 auto;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+
+  .NewToonInfo {
+    position: relative;
+    right: 25%;
+    width: 100% !important;
+    height: 200px !important;
+    cursor: pointer;
+  }
+  .NewToonInfo img {
+    
+    height: 170px !important;
+    border: 1px solid #000;
+  }
+}
+
+
+
+@media screen and (max-width:361px) and (min-width:100px) {
+
+  .NewToonBOx{
+    width: 100% !important;
+  }
+  .NewToonPage
+  {
+    width: 100% !important;
+    position: relative;
+    right: 12.5%;
+    height: 170px !important;
+  }
+  .NewToonInfo {
+    width: 100%  !important;
+    height: 169px !important;
+    align-items: center;
+    
+    float: left !important;
+    margin-left: 17% !important;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .NewToonInfo img {
+    
+  }
+
+
+
+
+}
+
+
+.NewToonPage {
+  background-color: rgba(159, 142, 142,0.4);
+  display: flex;
+  justify-content: center;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+}
+
+.NewToonInfo.active {
+  transform: translateX(calc(100% /33.3%));
+}
+
+.NewToonInfo {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+
+.NewToonItem img {
+  object-fit: contain ;
+  height: 250px;
+  width: 100%;
+}
+
+
